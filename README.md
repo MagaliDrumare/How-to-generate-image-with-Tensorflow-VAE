@@ -1,4 +1,8 @@
+# A voir et à savoir : 
 
+##### Qu'est-ce qu'un variational autoencoder? Les VAE sont à la mode, ils permettent de générer des images et sont utilisés dans le domaine du reinforcement learning.  
+* What is a VAE Tutorial:  https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
+* How to generate Image with Tensorflow : https://youtu.be/iz-TZOEKXzA (by Siraj Raval)
 
 
 ```

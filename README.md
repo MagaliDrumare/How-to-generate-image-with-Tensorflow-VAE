@@ -1,7 +1,8 @@
 
 
 
-'''
+```
+
 import numpy as np 
 import tensorflow as tf 
 import matplotlib.pyplot as plt 
@@ -34,7 +35,7 @@ return tf.matmul(W,X)+b
 
 #hidden / latent part 
 latent_dim= 20 
-h_dim = 500 # 500 neunrons
+h_dim = 500 # 500 neurons
 
 
 ## Encoder tanh + simple FC_layer
@@ -106,4 +107,4 @@ optimizer = tf.train.AdadeltaOptimizer().minimize(-variational_lower_bound)
 
 
 
-'''
+

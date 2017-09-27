@@ -4,9 +4,9 @@
 * What is a VAE Tutorial:  https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
 * How to generate Image with Tensorflow : https://youtu.be/iz-TZOEKXzA (by Siraj Raval)
 
-
+##### Credits go to bluebelmont : https://github.com/bluebelmont/Variational-Autoencoder
 ```
-Credits go to bluebelmont : https://github.com/bluebelmont/Variational-Autoencoder
+
 import numpy as np 
 import tensorflow as tf 
 import matplotlib.pyplot as plt 

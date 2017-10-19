@@ -5,7 +5,7 @@
 * How to generate Image with Tensorflow : https://youtu.be/iz-TZOEKXzA (by Siraj Raval)
 
 ##### Credits go to bluebelmont : https://github.com/bluebelmont/Variational-Autoencoder
-```
+```python
 
 import numpy as np 
 import tensorflow as tf 

@@ -98,7 +98,7 @@ log_likelihood = tf.reduce_sum(X*tf.log(reconstruction + 1e-9)+(1 - X)*tf.log(1 
 KL_term = -.5*tf.reduce_sum(1 + 2*logstd - tf.pow(mu,2) - tf.exp(2*logstd), reduction_indices=1)
 
 
-#but  but because tensorflow doesn't have a 'maximizing' optimizer, we minimize the negative lower bound.
+#but because tensorflow doesn't have a 'maximizing' optimizer, we minimize the negative lower bound.
 variational_lower_bound = tf.reduce_mean(log_likelihood - KL_term)
 optimizer = tf.train.AdadeltaOptimizer().minimize(-variational_lower_bound)
 

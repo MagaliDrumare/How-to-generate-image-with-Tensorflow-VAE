@@ -77,8 +77,7 @@ b_dec = bias_variable([h_dim], 'b_dec')
 h_dec = tf.nn.tanh(FC_layer(z, W_dec, b_dec))
 
 
-#Layer 2, using the original n pixels here since thats the dimensiaonlty
-#we want to restore our data to
+#Layer 2, using the original n pixels here since thats the dimensionalty we want to restore our data to
 W_reconstruct = weight_variable([h_dim, n_pixels], 'W_reconstruct')
 b_reconstruct = bias_variable([n_pixels], 'b_reconstruct')
 #784 bernoulli parameters output
